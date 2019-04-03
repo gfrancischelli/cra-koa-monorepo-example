@@ -2,5 +2,18 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly ./src/index.ts"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "koa-router": "^7.4.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.1"
+  }
 }

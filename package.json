@@ -7,6 +7,9 @@
   "author": "Giovanni Francischelli",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "server:start": "yarn workspace server start"
+  },
   "workspaces": [
     "client",
     "server"
